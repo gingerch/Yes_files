@@ -1,0 +1,52 @@
+#top-menu {
+	height: 40px;
+	margin: 0 auto;
+	width: 1100px;
+	background-color: 
+}
+
+#top-left {
+	float: left;
+}
+
+#top-right {
+	float: right;
+}
+ul {
+	padding-left: 0;
+}
+.menu-text {
+	display: inline;
+	font-family: 'Raleway', sans-serif;
+	font-size: 14px;
+	text-decoration: none;
+	line-height: 41px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+a:link {
+	color: rgb(138,138,138);
+	text-decoration: none;
+}
+a:visited {
+	color: rgb(138,138,138);
+	text-decoration: none;
+}
+a:hover {
+	color: black;
+}
+#side-yes {
+	display: block;
+	position: fixed;
+	top: 50%;
+	left: 20px;
+	transform: rotate(-90deg);
+}
+#side-top {
+	display: block;
+	position: fixed;
+	top: 50%;
+	right: 20px;
+	transform: rotate(90deg);
+}
